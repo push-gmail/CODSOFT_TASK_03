@@ -1,4 +1,4 @@
-ef load_data_set_ids(filename):
+def load_data_set_ids(filename):
     file = open(filename, 'r')
     text = file.read()
     file.close()
